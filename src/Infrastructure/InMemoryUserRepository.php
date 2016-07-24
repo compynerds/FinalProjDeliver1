@@ -73,7 +73,6 @@ class InMemoryUserRepository implements UserRepository
                 $responseStorage[] = $user;
             }
         }
-
         return $responseStorage;
     }
 
